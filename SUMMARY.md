@@ -2,5 +2,5 @@
 
 * [README](README.md)
 * [Getting Started](getting-started/README.md)
-  * [Untitled](getting-started/untitled.md)
+  * [Installing Python](getting-started/untitled.md)
 
