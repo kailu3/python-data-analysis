@@ -10,7 +10,6 @@ Simply open the Anaconda Navigator and launch the Notebook from there.
 
 ![](.gitbook/assets/jupyter_interface.png)
 
-![](https://github.com/kailu3/python-data-analysis/blob/master/img/jupyter_interface.png)
 
 You can also open up the **Terminal** and run the command
 

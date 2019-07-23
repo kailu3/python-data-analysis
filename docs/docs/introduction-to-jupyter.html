@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Preface · GitBook</title>
+        <title>Introduction to Jupyter · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="This is a GitBook documenting the useful things I've learned in CIS 105 Computational Data Exploration and well as useful Python snippets here and there I like to use for data analysis.">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="getting-started.html" />
+    <link rel="next" href="tips-and-tricks.html" />
     
+    
+    <link rel="prev" href="getting-started.html" />
     
 
     </head>
@@ -87,7 +89,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -113,7 +115,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="introduction-to-jupyter.html">
+        <li class="chapter active" data-level="1.3" data-path="introduction-to-jupyter.html">
             
                 <a href="introduction-to-jupyter.html">
             
@@ -169,7 +171,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Preface</a>
+        <a href="." >Introduction to Jupyter</a>
     </h1>
 </div>
 
@@ -184,16 +186,33 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="preface">Preface</h1>
-<h2 id="who-is-this-book-for">Who Is This Book For?</h2>
-<p>For students in CIS 105 and anyone looking for an easy introduction to learn Python for data analysis. My goal for this book is to provide an easy-to-reference guide for anyone looking to dabble in Python. For more advanced Python users, you may find the pacing to be slow. </p>
-<h2 id="why-python">Why Python?</h2>
-<p>Python has emerged over the last couple decades as a first-class tool for scientific computing tasks, including the analysis and visualization of large datasets. This probably may&apos;ve come as a surprise to early proponents of the Python language: the language itself was not specifically designed with data analysis or scientific computing in mind. The usefulness of Python for data science stems primarily from the large and active ecosystem of third-party packages: NumPy (<em>Pronounced num-pie</em>) for manipulation of homogeneous array-based data, Pandas for manipulation of heterogeneous and labeled data, <em>SciPy</em> for common scientific computing tasks, <em>Matplotlib</em> for visualizations of data, <em>Scikit-Learn</em> for machine learning, and many more tools in the following pages.</p>
-<h2 id="contributing-and-topic-requests">Contributing and Topic Requests</h2>
-<p>If you notice opportunities for improvements in terms of typos, spelling, grammar, syntax, etc., feel free to leave a comment on the right. You&apos;ll most likely be right. &#x1F601;</p>
-<p>If you have any topics that I could potentially go over or explain clearer and in more detail, please create an <strong>issue</strong> and describe the topic. You can create an issue <a href="https://github.com/kailu3/python-data-analysis/issues" target="_blank">here</a>. I&apos;ll try my best to address it as soon as possible.</p>
-<h2 id="acknowledgement">Acknowledgement</h2>
-<p>Huge thanks to Arvind for hiring me as a TA and the folks at Shopify for inspiring this project as a Hack Days project.</p>
+                                <h1 id="introduction-to-jupyter">Introduction to Jupyter</h1>
+<p>For all of this book, we will be working in Jupyter Notebooks, which is a web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text. I like to think of Jupyter Notebooks as the perfect medium for doing and sharing exploratory data analysis work. To me,  Notebooks are the ideal sandbox for playing around with new ideas and tools.</p>
+<h2 id="creating-your-first-jupyter-notebook">Creating Your First Jupyter Notebook</h2>
+<p>Depending on how you installed Jupyter, there are several ways to open up a Jupyter Notebook. One of them is through the <strong>Anaconda Navigator</strong> if you installed through Anaconda.</p>
+<p>Simply open the Anaconda Navigator and launch the Notebook from there.</p>
+<p><img src=".gitbook/assets/screen-shot-2019-07-22-at-9.33.25-pm.png" alt=""></p>
+<p>You can also open up the <strong>Terminal</strong> and run the command</p>
+<pre><code class="lang-bash">jupyter notebook
+</code></pre>
+<p>You would now want to navigate to (or create)  some folder where you would like to create your Notebook in.</p>
+<p><img src=".gitbook/assets/screen-shot-2019-07-22-at-9.38.02-pm.png" alt="Creating a Notebook"></p>
+<p>You can create a Notebook from the right dropdown by selecting Python 3.</p>
+<h2 id="an-alternative-to-jupyter-notebooks-not-required-">An Alternative to Jupyter Notebooks (Not Required) <a id="an-alternative-to-jupyter-notebooks-not-required"></a></h2>
+<p>The Jupyter team recently (2018) created a newer user interface that offers all the familiar building blocks of the classic Jupyter Notebook (notebook, terminal, text editor, file browser, rich outputs, etc.) in a more flexible and powerful interface. The project is called <strong>JupyterLab</strong> and essentially provides everything Jupyter Notebooks has but better (my opinion).</p>
+<blockquote>
+<p>I think CIS 105 is currently taught using Jupyter Notebooks so using JupyterLab is totally not necessary, but good to know that this exists.</p>
+</blockquote>
+<p>You can get JupyterLab <a href="https://github.com/jupyterlab/jupyterlab" target="_blank">here</a>.&#x200C;</p>
+<p>If you use Anaconda, you can install it with <code>conda</code>. Simply open Terminal and run</p>
+<pre><code class="lang-bash">conda install -c conda-forge jupyterlab
+</code></pre>
+<p>If you use pip, you can run</p>
+<pre><code class="lang-bash">pip install jupyterlab
+</code></pre>
+<p>To open up JupyterLab, you similarly need to run</p>
+<pre><code class="lang-bash">jupyter lab
+</code></pre>
 
                                 
                                 </section>
@@ -221,8 +240,12 @@
 
             
                 
+                <a href="getting-started.html" class="navigation navigation-prev " aria-label="Previous page: Installation">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="getting-started.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Installation">
+                
+                <a href="tips-and-tricks.html" class="navigation navigation-next " aria-label="Next page: Tips & Tricks">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -233,7 +256,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"This is a GitBook documenting the useful things I've learned in CIS 105 Computational Data Exploration and well as useful Python snippets here and there I like to use for data analysis.","title":"Preface","level":"1.1","depth":1,"next":{"title":"Installation","level":"1.2","depth":1,"path":"getting-started.md","ref":"getting-started.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-07-23T02:33:25.175Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-23T02:33:38.100Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction to Jupyter","level":"1.3","depth":1,"next":{"title":"Tips & Tricks","level":"1.4","depth":1,"path":"tips-and-tricks.md","ref":"tips-and-tricks.md","articles":[]},"previous":{"title":"Installation","level":"1.2","depth":1,"path":"getting-started.md","ref":"getting-started.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"introduction-to-jupyter.md","mtime":"2019-07-23T02:33:25.176Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-23T02:33:38.100Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
