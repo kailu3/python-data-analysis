@@ -1,11 +1,8 @@
----
-description: >-
-  This is a GitBook documenting the useful things I've learned in CIS 105
-  Computational Data Exploration and well as useful Python snippets here and
-  there I like to use for data analysis.
----
-
 # Preface
+
+This is a book documenting the useful things I've learned in CIS 105
+Computational Data Exploration and well as useful Python snippets here and
+there I like to use for data analysis.
 
 ## Who Is This Book For?
 
@@ -17,11 +14,10 @@ Python has emerged over the last couple decades as a first-class tool for scient
 
 ## Contributing and Topic Requests
 
-If you notice opportunities for improvements in terms of typos, spelling, grammar, syntax, etc., feel free to leave a comment on the right. You'll most likely be right. 😁
+If you notice opportunities for improvements in terms of typos, spelling, grammar, syntax, etc., feel free to leave a comment on the right. You'll most likely be right.
 
 If you have any topics that I could potentially go over or explain clearer and in more detail, please create an **issue** and describe the topic. You can create an issue [here](https://github.com/kailu3/python-data-analysis/issues). I'll try my best to address it as soon as possible.
 
 ## Acknowledgement
 
 Huge thanks to Arvind for hiring me as a TA and the folks at Shopify for inspiring this project as a Hack Days project.
-
