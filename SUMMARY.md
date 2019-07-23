@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [Getting Started](getting-started/README.md)
-  * [Installing Python](getting-started/untitled.md)
+* [Preface](README.md)
+* [Installation](getting-started.md)
+* [Introduction to Jupyter](introduction-to-jupyter.md)
+* [Tips & Tricks](tips-and-tricks.md)
 
