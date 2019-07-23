@@ -1,12 +1,14 @@
 # Introduction to Jupyter
 
-For all of this book, we will be working in Jupyter Notebooks, which is a web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text. I like to think of Jupyter Notebooks as the perfect medium for doing and sharing exploratory data analysis work. To me,  Notebooks are the ideal sandbox for playing around with new ideas and tools.
+For all of this book, we will be working in Jupyter Notebooks, which is a web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text. I like to think of Jupyter Notebooks as the perfect medium for doing and sharing exploratory data analysis work. To me, Notebooks are the ideal sandbox for playing around with new ideas and tools.
 
 ## Creating Your First Jupyter Notebook
 
 Depending on how you installed Jupyter, there are several ways to open up a Jupyter Notebook. One of them is through the **Anaconda Navigator** if you installed through Anaconda.
 
 Simply open the Anaconda Navigator and launch the Notebook from there.
+
+![](.gitbook/assets/jupyter_interface.png)
 
 ![](https://github.com/kailu3/python-data-analysis/blob/master/img/jupyter_interface.png)
 
@@ -16,9 +18,9 @@ You can also open up the **Terminal** and run the command
 jupyter notebook
 ```
 
-You would now want to navigate to \(or create\)  some folder where you would like to create your Notebook in.
+You would now want to navigate to \(or create\) some folder where you would like to create your Notebook in.
 
-![Creating a Notebook](https://github.com/kailu3/python-data-analysis/blob/master/img/jupyter_interface2.png)
+![Creating a Notebook](.gitbook/assets/jupyter_interface2.png)
 
 You can create a Notebook from the right dropdown by selecting Python 3.
 
@@ -29,8 +31,6 @@ The Jupyter team recently \(2018\) created a newer user interface that offers al
 > I think CIS 105 is currently taught using Jupyter Notebooks so using JupyterLab is totally not necessary, but good to know that this exists.
 
 You can get JupyterLab [here](https://github.com/jupyterlab/jupyterlab).‌
-
-
 
 If you use Anaconda, you can install it with `conda`. Simply open Terminal and run
 
@@ -43,8 +43,6 @@ If you use pip, you can run
 ```bash
 pip install jupyterlab
 ```
-
-
 
 To open up JupyterLab, you similarly need to run
 
