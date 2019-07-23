@@ -8,7 +8,7 @@ Depending on how you installed Jupyter, there are several ways to open up a Jupy
 
 Simply open the Anaconda Navigator and launch the Notebook from there.
 
-![](../img/jupyter_interface.png)
+![](https://github.com/kailu3/python-data-analysis/blob/master/img/jupyter_interface.png)
 
 You can also open up the **Terminal** and run the command
 
@@ -18,7 +18,7 @@ jupyter notebook
 
 You would now want to navigate to \(or create\)  some folder where you would like to create your Notebook in.
 
-![Creating a Notebook](../img/jupyter_interface2.png)
+![Creating a Notebook](https://github.com/kailu3/python-data-analysis/blob/master/img/jupyter_interface2.png)
 
 You can create a Notebook from the right dropdown by selecting Python 3.
 
