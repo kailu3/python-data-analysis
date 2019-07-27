@@ -6,12 +6,16 @@ there I like to use for data analysis.
 
 ## Who Is This Book For?
 
-For students in CIS 105 and anyone looking for an easy introduction to learn Python for data analysis. My goal for this book is to provide an easy-to-reference guide for anyone looking to dabble in Python. For more advanced Python users, you may find the pacing to be slow. 
+For students in CIS 105 and *anyone* looking for an easy introduction to learn Python for data analysis. Over the past
+months, I've received a lot of questions about how to best learn Python for data analysis from **scratch** as a lot of the
+introductory resources out there seem to assume some computer science knowledge which can be daunting for some.
+My goal for this book is to provide an easy-to-reference guide for anyone looking to dabble in Python and teach
+the data science process from importing the dataset to being able to analyze and vizualize the data. More advanced 
+Python users will find the pacing to be slow.
 
 ## Why Python?
 
-Python has emerged over the last couple decades as a first-class tool for scientific computing tasks, including the analysis and visualization of large datasets. This probably may've come as a surprise to early proponents of the Python language: the language itself was not specifically designed with data analysis or scientific computing in mind. The usefulness of Python for data science stems primarily from the large and active ecosystem of third-party packages: NumPy \(_Pronounced num-pie_\) for manipulation of homogeneous array-based data, Pandas for manipulation of heterogeneous and labeled data, _SciPy_ for common scientific computing tasks, _Matplotlib_ for visualizations of data, _Scikit-Learn_ for machine learning, and many more tools in the following pages.
-
+Python has emerged over the last couple decades as a first-class tool for scientific computing tasks, including the analysis and visualization of large datasets. This probably may've come as a surprise to early proponents of the Python language: the language itself was not specifically designed with data analysis or scientific computing in mind. The usefulness of Python for data science stems primarily from the large and active ecosystem of third-party packages: NumPy \(_Pronounced num-pie_\) for manipulation of homogeneous array-based data, Pandas for manipulation of heterogeneous and labeled data, _SciPy_ for common scientific computing tasks, _Matplotlib_ for visualizations of data, _Scikit-Learn_ for machine learning, and many more tools in the following pages. Excerpt taken from the *Python Data Science Handbook*.
 
 ## Getting Help
 
@@ -26,6 +30,9 @@ If you notice opportunities for improvements in terms of typos, spelling, gramma
 
 If you have any topics that I could potentially go over or explain clearer and in more detail, please create an **issue** and describe the topic. You can create an issue [here](https://github.com/kailu3/python-data-analysis/issues). I'll try my best to address it as soon as possible.
 
-## Acknowledgement
+## References
 
-Huge thanks to Arvind for hiring me as a TA and the folks at Shopify for inspiring this project as a Hack Days project.
+Some material from this book will be referenced from
+> [*The Python Data Science Handbook*](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas (O’Reilly). Copyright 2016 Jake VanderPlas, 978-1-491-91205-8.  
+
+which is a great book to check out as a continuation and deeper dive into using Python effectively for data.
