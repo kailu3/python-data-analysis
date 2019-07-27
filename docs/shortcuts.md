@@ -52,7 +52,9 @@ You can find a quick cheatsheet for it [here](https://www.markdownguide.org/chea
 
 While in **edit mode**,
 
-- `Shift + Enter` Run the Cell (`I + I` (Press `I` Twice to Interrupt))
+- `Shift + Enter` Run the Cell
+
+- `I + I` (Press `I` Twice) To Interrupt
 
 - `Ctrl + C` Useful for running same cell multiple times
 
