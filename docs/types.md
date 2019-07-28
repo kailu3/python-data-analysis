@@ -3,7 +3,8 @@
 Every value in Python has a type. First let's have a short discussion of the most common, basic types that are built into Python.
 We can check the type of each value by using the Python built-in `type()` function.
 
-# Booleans
+## Booleans
+
 A boolean is a data type that almost every programming language has. A Boolean in Python can have two values: `True` or `False`.
 These values are constants and can be used to assign or compare boolean values.
 

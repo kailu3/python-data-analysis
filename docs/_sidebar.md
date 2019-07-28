@@ -9,9 +9,9 @@
 - The Basics
     - [Hello World](hello_world.md)
     - [Introduction to Types](types.md)
-    - [Type Casting and Arithmatic](casting_arithmatic.md)
+    - [Type Casting](type_casting.md)
     - [Tuples, Lists, and Dicts](tuples_lists_dicts.md)
-
+    - [Basic Math](math.md)
 
 - NumPy
 - Pandas

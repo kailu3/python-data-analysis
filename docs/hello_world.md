@@ -54,7 +54,7 @@ In [1]: print(f'apples are {apple} dollars a dozen')
 Out[1]: apples are 12 dollars a dozen
 ```
 
-You can also do inline arithmatic with it!
+You can also do inline arithmetic with this formatting approach!
 
 ```python
 In [1]: a = 5
