@@ -25,9 +25,24 @@ Now suppose we were looking through our `some_cat_list` and we realized we wante
 ```python
 some_cat_list.remove(20)
 ```
-Suppose we didn't know the item we wanted to remove but knew the index. If we wanted to remove an item in `20`'s location, we can type
+Suppose we didn't know the item we wanted to remove but knew its **index**. If we wanted to remove an item in `20`'s location, we can type
 
 ```python
 del some_cat_list[3]
 ```
 
+> An index refers to a position within a sequence. In Python and most programming languages, we start at position `0`. Though `20` is the fourth item in `some_cat_list`, its index in the list is `3`.
+
+Now maybe you adopted another cat called kiki and would like to add her to the list. To do that, we could type
+
+```python
+some_cat_list.append('kiki')
+
+```
+
+which would append kiki onto the end of the list. Or if we want to change kiki's name to mei instead given a change of mind, we could do so easily by changing the item at the last index.
+
+```python
+some_cat_list[-1] = 'mei'
+
+```
