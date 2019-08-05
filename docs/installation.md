@@ -23,6 +23,6 @@ You can install Miniconda [here](https://docs.conda.io/en/latest/miniconda.html)
 
 ## An Alternative to Anaconda - pyenv
 
-[pyenv](https://github.com/pyenv/pyenv) is a light-weight Python version management tool that lets you easily switch between multiple versions of Python. I prefer using pyenv for work and collaborating with others as it makes switching between Python versions rather convenient. If you are using a Mac, I suggest installing pyenv through Homebew \(Mac package manager\).
+[pyenv](https://github.com/pyenv/pyenv) is a light-weight Python version management tool that lets you easily switch between multiple versions of Python. I prefer using pyenv for work and collaborating with others as it makes switching between Python versions rather convenient. If you are using a Mac, I suggest installing pyenv through Homebrew \(Mac package manager\).
 
 > pyenv is totally not required for the purposes of CIS 105.

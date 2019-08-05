@@ -11,7 +11,7 @@ int b = 2
 boolean c = true
 ```
 
-As you can see, each variable needs to explicitly declared a type. In contrast,the equivilant in Python is as follows:
+As you can see, each variable needs to explicitly declared a type. In contrast, the equivilant in Python is as follows:
 
 ```python
 a = 'Hello'
