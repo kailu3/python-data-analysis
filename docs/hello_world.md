@@ -1,7 +1,7 @@
 # Hello World
 
 The most simple function and in my opinion one the most useful functions is the `print()` statement. This function
-is extremely useful for Debugging code and checking variable values. To print something in Python 3, just write the following and
+is extremely useful for debugging code and checking variable values. To print something in Python 3, just write the following and
 run the cell by pressing `Shift+Enter`:
 
 ```python

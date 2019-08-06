@@ -103,10 +103,14 @@ some_dict = {
 Now, say we want to access `Racheal's` phone number from the dictionary. We can simply do so get *getting* her number
 using her name as the `key`.
 
+### Method 1 (Recommended)
+
 ```python
 In [1]: some_dict.get('Racheal')
 Out[1]: 964296429
 ```
+
+### Method 2
 
 Some people might remember that you can also access the `value` by doing:
 
@@ -114,4 +118,32 @@ Some people might remember that you can also access the `value` by doing:
 In [1]: some_dict['Racheal']
 Out[1]: 964296429
 ```
-This works
+This does work when the `key` is present but I would **NOT** recommend it. Suppose we wanted to find Bob's phone number. However,
+Bob unfortunately had not been recorded in `some_dict` yet.
+
+```python
+In [1]: some_dict['Bob']
+Out[1]: KeyError
+```
+If the `key` 'Bob' does not exist in the dictionary, this would throw a KeyError which is uninformative and not good.
+> Now suppose we use the `.get` method to try and get Bob's phone number:
+
+```python
+In [1]: bobs_number = some_dict.get('Bob')
+        print(bobs_number)
+Out[1]: None
+```
+
+As you can see, the `.get` method defaults to `None`. You are also able to specify an informative message when the `key` does
+not exist which is much better than causing a `KeyError`. For example:
+
+```python
+In [1]: bobs_number = some_dict.get('Bob', 'The key You are looking for does not exist!')
+        print(bobs_number)
+Out[1]: 'The key You are looking for does not exist!'
+
+```
+
+>This is much more informative when debugging!
+
+You may also learn more about Dictionaries [here](https://www.w3schools.com/python/python_dictionaries.asp).
